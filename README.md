@@ -1,1 +1,2 @@
-# CodeSmell - Blog
+
+# Code Smell - Blog
