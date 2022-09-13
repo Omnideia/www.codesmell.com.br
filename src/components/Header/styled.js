@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 import media from 'styled-media-query';
 
-export const SidebarWrapper = styled.aside`
+export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
-  flex-direction: column;
+ 
   background-color: var(--background-profile-primary);
-  height: 100vh;
+ 
+  height: 6rem;
+  width: 100%;
+  
   position: fixed;
+  top: 0;
+
   text-align: center;
-  width: 28rem;
-  border-radius: 0 20px 20px 0;
-  box-shadow: 0 10px 10px #313240;
+
+  /* box-shadow: 0 10px 10px #313240; */
 
   ${media.lessThan('large')`
     margin: 0;
@@ -32,15 +36,16 @@ export const SidebarWrapper = styled.aside`
   `}
 `;
 
-export const SidebarEmailLink = styled.section`
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 5rem;
-  padding: 1rem 0;
+export const HeaderContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-  border-bottom: 1px solid #ff7f50;
+  height: 100%;
+  width: 100%;
+  max-width: 130rem;
 
-  ${media.lessThan('large')`
-    display: none;
-  `}
+  margin: 0 auto;
+
+  /* background-color: #ddd; */
 `;

@@ -3,6 +3,14 @@
   License: none (public domain)
 */
 
+/**
+** #141414
+** #19B8F5
+** #C62BEF
+** #2BDCB2
+** #FCFDFC
+**/
+
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
@@ -55,23 +63,24 @@ const GlobalStyles = createGlobalStyle`
 
   :root {
     /* Layout */
-    --background-layout-main: #383A47;
-    --background-layout-mobile: #383a47f6;
+    --background-layout-main: #FCFDFC;
+    --background-layout-mobile: #2E2B34;
 
     /* Profile */
-    --background-profile-primary: #46495A;
-    --color-profile-primary: #e1e5ee;
+    --background-profile-primary: #141414;
+    --color-profile-primary: #141414;
+    --color-profile-secundary: #767b91;
     --color-profile-hover: #767b91;
     
     /* line PostItem */
     --color-line-postitem: #4E516659;
 
     /* Menu Links */
-    --color-link-primary: #e1e5ee;
-    --color-link-hover: #ff7f50;
+    --color-link-primary: #FCFDFC;
+    --color-link-hover: #2BDCB2;
 
     /* MenuBar */
-    --background-menubar: #383A47;
+    --background-menubar: #2E2B34;
 
     /* Post color */
     --post-color: #fff;

@@ -52,7 +52,6 @@ export const MenuBarLink = styled(AniLink)`
 
     &:hover {
       color: var(--color-link-hover);
-      
     }
   `}
 `;
