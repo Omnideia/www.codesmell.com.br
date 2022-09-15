@@ -83,8 +83,8 @@ const GlobalStyles = createGlobalStyle`
     --background-menubar: #2E2B34;
 
     /* Post color */
-    --post-color: #fff;
-    --hightlight-quote: #ff7f50;
+    --post-color: #2E2B34;
+    --hightlight-quote: #10B38C;
     --color-line-borders: #4E5166;
     --color-line-hr: #4E5166E6;
 

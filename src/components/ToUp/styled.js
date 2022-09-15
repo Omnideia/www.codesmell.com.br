@@ -17,11 +17,11 @@ export const IconWrapper = styled.div`
   cursor: pointer;
 
   &:hover {
-    color: #ff7f50;
+    color: #50fa7b;
     box-shadow: 0 5px 20px #171824;
   }
 
   ${media.lessThan('large')`
     display: none;
   `}
-`;
+`; 

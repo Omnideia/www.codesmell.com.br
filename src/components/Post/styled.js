@@ -163,7 +163,7 @@ export const MainContent = styled.section`
 
     &::before {
       content: '...';
-      color: #fff;
+      color: var(--post-color);
       font-size: 3.2rem;
       letter-spacing: 0.6em;
       text-indent: 0.6em;
@@ -219,7 +219,7 @@ export const MainContent = styled.section`
     background-color: #767b91;
     padding: 0.3rem;
     border-radius: 4px;
-    color: #fff;
+    color: var(--post-color);
     font-family: var(--font-mark);
     font-weight: 400;
     font-style: italic;
